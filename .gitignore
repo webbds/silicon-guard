@@ -1,0 +1,13 @@
+# Ignore Jupyter notebooks checkpoints
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+# Ignore Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+# Ignore local data and large binaries (Best practice for ML repos)
+silicon_guard/data/raw/*.csv
+silicon_guard/models/*.joblib
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
