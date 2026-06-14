@@ -34,7 +34,6 @@ silicon_guard/
 │   ├── features.py        # Feature engineering (moving averages, volatility)
 │   ├── model.py           # Random Forest RUL prediction engine
 │   └── roi_template.py    # Business impact & ROI calculator
-
 ├── models/                # Trained model artifacts (.joblib)
 ├── data/                 # Raw and processed sensor datasets
 ├── notebooks/             # EDA, Model Validation, and Business Deep-dives
